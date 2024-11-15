@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  scrollbar-color: #424242 transparent;
+}
+
+*, *::before, *::after {
+  border: 0 solid #e3e3e3;
+  box-sizing: border-box;
+}
+
+.react-scroll-to-bottom--css-efpnu-79elbk {
+  position: relative;
+}
+
+.react-scroll-to-bottom--css-efpnu-1n7m0yu {
+  height: 100%;
+  width: 100%;
+}
+
+.dark\:bg-token-main-surface-secondary:is(.dark *) {
+  background-color: #2f2f2f;
+}
